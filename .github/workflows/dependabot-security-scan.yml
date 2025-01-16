@@ -18,7 +18,7 @@ jobs:
         id: dependabot-action
         uses: Pulakp21/universal-dependabot-action@v1.0.2
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.MY_PERSONAL_TOKEN }} # ${{ secrets.GITHUB_TOKEN }}
 
       - name: Log Results
         run: echo "Processed ${{ steps.dependabot-action.outputs.alerts_processed }} security vulnerabilities."
