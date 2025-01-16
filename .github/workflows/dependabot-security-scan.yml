@@ -15,7 +15,7 @@ jobs:
 
       - name: Run Universal Dependabot Manager
         id: dependabot-action
-        uses: Pulakp21/universal-dependabot-action@v1.0.0
+        uses: Pulakp21/universal-dependabot-action@v1.0.1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
